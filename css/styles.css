@@ -21,7 +21,12 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 500px;
-    height: 500px;
+
+}
+
+.todo-list__items {
+    overflow: scroll;
+    height: 400px;
 }
 
 .todo-list__title {
